@@ -140,13 +140,4 @@ public class RedisUtil {
         }
         return redisTemplate.opsForValue().increment(key, -delta);
     }
-
-
-
-
-
-
-
-
-
 }
